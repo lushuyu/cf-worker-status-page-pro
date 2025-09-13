@@ -14,7 +14,7 @@ bucket = "./dist/client"
 port = 3000
 
 [env.production]
-kv_namespaces = [ { binding = "KV_STORE", id = "83944df5b99b43a5804ba0902579194f" }, ]
+kv_namespaces = [ { binding = "KV_STORE", id = "8d4f429236d2490b9282c06ba6a5e8f1" }, ]
 
 [env.production.triggers]
 crons = [
