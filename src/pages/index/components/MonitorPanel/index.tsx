@@ -243,7 +243,7 @@ const MonitorPanel: React.FC<IMonitorPanelProps> = (props) => {
                             ${color} block
                           `}
                           style={{
-                            height: 28,
+                            height: 100,
                           }}
                         />
                       </TooltipTrigger>
