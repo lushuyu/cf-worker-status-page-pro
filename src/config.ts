@@ -17,7 +17,7 @@ export const config: Config = {
     {
       id: 'NUS Personal Page',
       url: 'https://www.comp.nus.edu.sg/~e1376036/Shuyu/',
-      description: 'NUS Personal Page.',
+      description: 'NUS Personal Page',
     },
     {
       id: 'NYC Server',
@@ -33,6 +33,7 @@ export const config: Config = {
       id: 'NYC Server - Jellyfin',
       url: 'https://nyc-jellyfin.lushuyu.site/',
       description: 'NYC Server - Jellyfin',
+      followRedirect: true,
     },
   ],
 }
