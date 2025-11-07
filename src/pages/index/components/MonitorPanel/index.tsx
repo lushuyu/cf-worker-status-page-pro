@@ -130,7 +130,7 @@ const MonitorPanel: React.FC<IMonitorPanelProps> = (props) => {
                   },
                   {
                     key: 'Expect Status',
-                    value: monitorConfig.expectStatus || 200,
+                    value: monitorConfig.expectStatus || [200, 401],
                   },
                   {
                     key: 'Follow Redirect',
