@@ -52,7 +52,7 @@ export async function handleCronTrigger(env: Env, ctx: ExecutionContext) {
 
     // Determine whether operational and status changed
     const monitorOperational
-    = checkResponse.status === (monitor.expectStatus || 200)
+    = checkResponse.status === (monitor.expectStatus || 200 || 401)
     const monitorStatusChanged = kvData.monitorHistoryData?.[monitor.id]?.lastCheck.operational !== monitorOperational
 
     if (monitorStatusChanged) {
