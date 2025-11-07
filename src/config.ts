@@ -19,5 +19,20 @@ export const config: Config = {
       url: 'https://www.comp.nus.edu.sg/~e1376036/Shuyu/',
       description: 'NUS Personal Page.',
     },
+    {
+      id: 'NYC Server',
+      url: 'https://nyc.lushuyu.site/',
+      description: 'NYC Server',
+    },
+    {
+      id: 'NYC Server - Transmisson',
+      url: 'https://nyc-transmission.lushuyu.site/',
+      description: 'NYC Server - Transmisson',
+    },
+    {
+      id: 'NYC Server - Jellyfin',
+      url: 'https://nyc-jellyfin.lushuyu.site/',
+      description: 'NYC Server - Jellyfin',
+    },
   ],
 }
